@@ -24,6 +24,6 @@ But wait--I did actually still manage to find time to code today! I broke off of
 
 Whew...long entry today. Without further ado, the code for my basic placeholder story-based RPG/adventure game can be found below!
 
-**Thoughts:** 
+**Thoughts:** Really pleased with my productivity today. I didn't create/code anything mind-blowing, but it *worked*, which is a huge step in the right direction for a newbie such as myself. I am really starting to immerse myself into as many coding resources as possible, including books, podcasts, and communities. I'm really loving where this is going!
 
 **Link to work:** [TextAdventureTest Script](https://github.com/fauletto/100-days-of-code/blob/master/Day003-TextAdventureTest)
