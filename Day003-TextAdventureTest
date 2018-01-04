@@ -1,0 +1,119 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class TextController : MonoBehaviour {
+
+    public Text text;
+    private enum States {engineering, engineering_1, data_pad_0, loading_bay_door_0, window, data_pad_1, loading_bay_door_1, loading_bay_door_2, escape_pod, ending};
+    private States myState;
+
+	// Use this for initialization
+	void Start () {
+        myState = States.engineering;
+	}
+
+    // Update is called once per frame
+    void Update()
+    {
+        print(myState);
+        if (myState == States.engineering)              {engineering();}
+        else if (myState == States.engineering_1)       {engineering_1();}
+        else if (myState == States.data_pad_0)          {data_pad_0();}
+        else if (myState == States.loading_bay_door_0)  {loading_bay_door_0();}
+        else if (myState == States.loading_bay_door_1)  {loading_bay_door_1();}
+        else if (myState == States.loading_bay_door_2)  {loading_bay_door_2();}
+        else if (myState == States.window)              {window();}
+        else if (myState == States.escape_pod)          {escape_pod();}
+        else if (myState == States.ending)              {ending();}
+    }
+
+    #region State handler methods
+    void engineering ()
+    {
+            text.text = "You are stranded on a research vessel above the planet Mars. " +
+                "Disoriented, you look for the rest of the crew, but realize you are alone. " +
+                "You notice the distinct smell of burning fuel in the air and realize the ship is on fire.\n\n" +
+                "Press Space to continue.";
+        if (Input.GetKeyDown(KeyCode.Space))        {myState = States.engineering_1;}
+    }
+
+    void engineering_1()
+    {
+            text.text = "You now remember a recent explosion in the engine room is the cause " +
+                "of the burning smell on the Engineering Deck. The ship is in freefall, " +
+                "plummeting toward the desolate Mars surface. You must reach the escape pods as soon as possible.\n\n" +
+                "Press D to view your Data Pad, L to view the Loading Bay Door, " +
+                "or W to examine the Window.";
+        if (Input.GetKeyDown(KeyCode.D))            {myState = States.data_pad_0;}
+        else if (Input.GetKeyDown(KeyCode.L))       {myState = States.loading_bay_door_0;}
+        else if (Input.GetKeyDown(KeyCode.W))       {myState = States.window;}
+    }
+
+    void window()
+    {
+        text.text = "You can see the surface of Mars getting closer with each passing second. " +
+            "This ship will not remain in orbit much longer. No time for sightseeing; you need to get to an escape pod!\n\n" +
+            "Press E to return to the Engineering Deck.";
+        if (Input.GetKeyDown(KeyCode.E))            {myState = States.engineering_1;}
+    }
+
+    void data_pad_0()
+    {
+        text.text = "You check your data pad for relevant information. You find an audio file from your " +
+            "commander describing an engine failure. This must be what caused the explosion below. You also see " +
+            "a four digit code: 7281. You can't remember what this code is used for, but it must be important.\n\n" +
+            "Press E to return to the Engineering Deck.";
+        if (Input.GetKeyDown(KeyCode.E))            {myState = States.engineering_1;}
+    }
+
+    void loading_bay_door_0()
+    {
+        text.text = "You approach the door to the loading bay. This is where the escape pods are housed! " +
+            "You attempt to open the door, but to no avail. You need a code the bypass the lock. \n\n" + 
+            "Press 1 to enter key code 7728, 2 to enter key code 7741, 3 to enter key code 7281, 4 to enter key code 7342, " +
+            "or E to return to the Engineering Deck." ;
+        if (Input.GetKeyDown(KeyCode.E))            {myState = States.engineering_1;}
+        else if (Input.GetKeyDown(KeyCode.Alpha1))  {myState = States.loading_bay_door_1;}
+        else if (Input.GetKeyDown(KeyCode.Alpha2))  {myState = States.loading_bay_door_1;}
+        else if (Input.GetKeyDown(KeyCode.Alpha3))  {myState = States.loading_bay_door_2;}
+        else if (Input.GetKeyDown(KeyCode.Alpha4))  {myState = States.loading_bay_door_1;}
+    }
+
+    void loading_bay_door_1()
+    {
+        text.text = "The door buzzes and a red light flashes. This is not the correct code. " +
+            "You should be able to find the correct code somewhere around here.\n\n" +
+            "Press L to return to the Loading Bay Door or E to return to the Engineering Deck.";
+        if (Input.GetKeyDown(KeyCode.E))            {myState = States.engineering_1;}
+        else if (Input.GetKeyDown(KeyCode.L))       {myState = States.loading_bay_door_0;}
+    }
+
+    void loading_bay_door_2()
+    {
+        text.text = "The door beeps and the key pad flashes green. You hear an audible click as the door unlocks. " +
+            "The door opens, and you decide it's time to get off of this forsaken vessel.\n\n" +
+            "Press L to enter the Loading Bay.";
+        if (Input.GetKeyDown(KeyCode.L))            {myState = States.escape_pod;}
+    }
+
+    void escape_pod()
+    {
+        text.text = "As you enter the Loading Bay, you discover there is still one escape pod left. " +
+            "The rest of the crew must have escaped as they woke up. No time for you to worry about this now; " +
+            "It's time to get out of here!\n\n Press X to enter the Escape Pod.";
+        if (Input.GetKeyDown(KeyCode.X))            {myState = States.ending;}
+    }
+
+    void ending()
+    {
+        text.text = "You successfully escaped the vessel before it crashed to the surface. Now, you find yourself " +
+            "drifting alone in space. You activate the SOS beacon inside the escape pod, and close your eyes. Your fate " +
+            "is no longer in your own hands.\n\n Press P to Play Again or Escape to Quit.";
+        if (Input.GetKeyDown(KeyCode.P))            {myState = States.engineering;}
+        else if (Input.GetKeyDown(KeyCode.Escape))  {Application.Quit();}
+    }
+
+    #endregion
+}
