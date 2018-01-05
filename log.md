@@ -16,7 +16,7 @@
 
 **Link to work:** [EnemySpawner Script](https://github.com/fauletto/100-days-of-code/blob/master/Day002-EnemyFormationSpawner)
 
-### Day 3: January 4th, 2018.
+### Day 3: January 3rd, 2018.
 
 **Today's Progress**: Today was a really good day for learning and practicing. I spent most of my lunch break reading the C# Yellow Book to expand my C# knowledge a bit. During my drives to work, the gym, and home, I listened to the CodeNewbie podcast to try to immerse myself in as much programmer talk as possible. Once I got home, I continued to progress through [Bob Tabor's C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169) course, which I'm really enjoying for learning the basics of C# and Visual Studio. 
 
@@ -29,3 +29,11 @@ Whew...long entry today. Without further ado, the code for my basic placeholder 
 **Thoughts:** Really pleased with my productivity today. I didn't create/code anything mind-blowing, but it *worked*, which is a huge step in the right direction for a newbie such as myself. I am really starting to immerse myself into as many coding resources as possible, including books, podcasts, and communities. I'm really loving where this is going!
 
 **Link to work:** [TextAdventureTest Script](https://github.com/fauletto/100-days-of-code/blob/master/Day003-TextAdventureTest)
+
+### Day 4: January 4th, 2018.
+
+**Today's Progress**: 
+
+**Thoughts:** 
+
+**Link to work:** 
