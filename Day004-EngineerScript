@@ -1,5 +1,5 @@
-public class BaseEngineerClass : BaseCharacterClass {
-
+public class BaseEngineerClass : BaseCharacterClass 
+{
     public BaseEngineerClass()
     {
         CharacterClassName = "Engineer";
