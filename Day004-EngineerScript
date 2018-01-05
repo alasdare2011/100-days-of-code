@@ -1,0 +1,13 @@
+public class BaseEngineerClass : BaseCharacterClass {
+
+    public BaseEngineerClass()
+    {
+        CharacterClassName = "Engineer";
+        CharacterClassDescription = "An intelligent, quick-witted technician who is adept in hacking terminals. The Engineer can create and deploy drones in combat.";
+        Vitality = 10;
+        Strength = 8;
+        Dexterity = 12;
+        Intellect = 14;
+        Agility = 10;
+    }
+}
