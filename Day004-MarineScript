@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BaseMarineClass : BaseCharacterClass
+{
+    public BaseMarineClass()
+    {
+        CharacterClassName = "Marine";
+        CharacterClassDescription = "A strong, but hard-headed soldier who can both dish out and take heavy damage. The Marine can use any weapon without penalty.";
+        Vitality = 14;
+        Strength = 15;
+        Dexterity = 8;
+        Intellect = 8;
+        Agility = 10;
+    }
+}
