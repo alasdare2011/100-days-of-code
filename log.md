@@ -32,8 +32,12 @@ Whew...long entry today. Without further ado, the code for my basic placeholder 
 
 ### Day 4: January 4th, 2018.
 
-**Today's Progress**: 
+**Today's Progress**: Today was a snow day, so no work! That means more time to code! I started the day reading a bit more of [Rob Miles' C# Yellow Book](http://www.csharpcourse.com/) and finishing up [Bob Tabor's awesome C# Fundamentals for Absolute Beginners](https://mva.microsoft.com/en-us/training-courses/c-fundamentals-for-absolute-beginners-16169) course. After that work, I went on to coding by myself.
 
-**Thoughts:** 
+So, I decided to start taking the training wheels off and be a bit more ambitious today. I have really enjoyed the Udemy Unity coursework I've done so far, but I'm taking a brief break from it to take what I've learned and try to apply it to my own projects outside of the course. Since I decided yesterday that I'd like to expand my very basic text/story-based RPG, I made an effort to create a class template for two character classes. Nothing much to show in terms of display within the game, but this is more of the background stuff that will be running in Unity to power the characters. 
 
-**Link to work:** 
+**Thoughts:** Another productive day today! I don't have much to show for my work, but I do have a few scripts I'm happy with. Tomorrow I will plug away at this a little more, and maybe come up with a way to display this in the start screen (e.g., selecting your class and displaying their starting attributes/skills).
+
+**Link to work:** [Character Script](https://github.com/fauletto/100-days-of-code/blob/master/Day004-CharacterScript),
+[Engineer Script](https://github.com/fauletto/100-days-of-code/blob/master/Day004-EngineerScript),
+[Marine Script](https://github.com/fauletto/100-days-of-code/blob/master/Day004-MarineScript)
