@@ -42,7 +42,7 @@ So, I decided to start taking the training wheels off and be a bit more ambitiou
 [Engineer Script](https://github.com/fauletto/100-days-of-code/blob/master/Day004-EngineerScript),
 [Marine Script](https://github.com/fauletto/100-days-of-code/blob/master/Day004-MarineScript)
 
-### Day : January 45th, 2018.
+### Day : January 5th, 2018.
 
 **Today's Progress**: Another snow day, another code day! I decided to jump back into my Udemy C#/Unity coursework and continue to work on my space shooter, Star Swarm. I did a lot of the work without the assistance of the videos/instructors and updated/cleaned up some of my older scripts. I added a music player that starts up when you load the game, loops, and destroys any additional music players that are spawned when the player is taken back to the start screen. I also added sound effects to my player and enemy ships, both for firing lasers and for when they are destroyed. Additionally, I added a UI score overlay, and created a function to increase the player's score by 150 points for each enemy destroyed.
 
