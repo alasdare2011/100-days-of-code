@@ -41,3 +41,14 @@ So, I decided to start taking the training wheels off and be a bit more ambitiou
 **Link to work:** [Character Script](https://github.com/fauletto/100-days-of-code/blob/master/Day004-CharacterScript),
 [Engineer Script](https://github.com/fauletto/100-days-of-code/blob/master/Day004-EngineerScript),
 [Marine Script](https://github.com/fauletto/100-days-of-code/blob/master/Day004-MarineScript)
+
+### Day : January 45th, 2018.
+
+**Today's Progress**: Another snow day, another code day! I decided to jump back into my Udemy C#/Unity coursework and continue to work on my space shooter, Star Swarm. I did a lot of the work without the assistance of the videos/instructors and updated/cleaned up some of my older scripts. I added a music player that starts up when you load the game, loops, and destroys any additional music players that are spawned when the player is taken back to the start screen. I also added sound effects to my player and enemy ships, both for firing lasers and for when they are destroyed. Additionally, I added a UI score overlay, and created a function to increase the player's score by 150 points for each enemy destroyed.
+
+**Thoughts:** All in all, another pretty productive day. I didn't create or code a lot of new products, but I updated, cleaned up, and improved some of my older scripts, all on my own! I think that was the biggest achievement for me today: not needing the videos or instructions to improve the scripts. I know I can still improve a *ton* from here, but I feel like I'm making baby steps each day.
+
+**Link to work:** [ScoreKeeper Script](https://github.com/fauletto/100-days-of-code/blob/master/Day005-ScoreKeeperScript),
+[MusicPlayer Script](https://github.com/fauletto/100-days-of-code/blob/master/Day005-MusicPlayerScript),
+[Updated Enemy Script](https://github.com/fauletto/100-days-of-code/blob/master/Day005-UpdatedEnemyScript),
+[Updated Player Script](https://github.com/fauletto/100-days-of-code/blob/master/Day005-UpdatedPlayerScript)
