@@ -42,7 +42,7 @@ So, I decided to start taking the training wheels off and be a bit more ambitiou
 [Engineer Script](https://github.com/fauletto/100-days-of-code/blob/master/Day004-EngineerScript),
 [Marine Script](https://github.com/fauletto/100-days-of-code/blob/master/Day004-MarineScript)
 
-### Day : January 5th, 2018.
+### Day 5: January 5th, 2018.
 
 **Today's Progress**: Another snow day, another code day! I decided to jump back into my Udemy C#/Unity coursework and continue to work on my space shooter, Star Swarm. I did a lot of the work without the assistance of the videos/instructors and updated/cleaned up some of my older scripts. I added a music player that starts up when you load the game, loops, and destroys any additional music players that are spawned when the player is taken back to the start screen. I also added sound effects to my player and enemy ships, both for firing lasers and for when they are destroyed. Additionally, I added a UI score overlay, and created a function to increase the player's score by 150 points for each enemy destroyed.
 
@@ -52,3 +52,16 @@ So, I decided to start taking the training wheels off and be a bit more ambitiou
 [MusicPlayer Script](https://github.com/fauletto/100-days-of-code/blob/master/Day005-MusicPlayerScript),
 [Updated Enemy Script](https://github.com/fauletto/100-days-of-code/blob/master/Day005-UpdatedEnemyScript),
 [Updated Player Script](https://github.com/fauletto/100-days-of-code/blob/master/Day005-UpdatedPlayerScript)
+
+### Day 6: January 6th, 2018.
+
+**Today's Progress**: Another productive day today! I continued to work on my space shooter game, Star Swarm with minimal assistance from the Udemy videos. I used a lot of resources on Google to answer some of the questions I had. Today I created two new systems within my game: a working Leaderboard, which keeps track of the top 10 scores in the game; and an updated music player, which plays a different audio track for each loaded level. 
+
+I did encounter a problem while coding today, but I didn't give up and actually came up with a solution! Here was my issue: I was attempting to create a method that caused the player's space ship to explode when its health reached 0 points. Easy enough. I then wanted the ship sprite to disappear, play a sound, and load the "Game Over" scene. Not so easy. I realized (after more time than I would like to admit), that because the object with the sound file (the space ship) was being destroyed, so too was the audio clip. I eventually created a method and attached it to another game object that constantly checks to see if the player's health is <=0. If that is detected, this separate game object would play the death sound and load the next level, allowing the ship sprite to disappear without affecting the sound or level load.
+
+I definitely was battling some frustrating during that experience, but finding the solution *with no help at all* was really satisfying. 
+
+**Thoughts:** Similar to the progress I made yesterday, I am very pleased that I was able to do some of the (minor) things I did with minimal assistance. I hit a bit of a snag while working on some systems and got a bit frustrated. I didn't give up, however, and managed to find a solution, which felt awesome. 
+
+**Link to work:** [Leaderboard Script]https://github.com/fauletto/100-days-of-code/blob/master/Day006-LeaderboardScript,
+[Music Script]https://github.com/fauletto/100-days-of-code/blob/master/Day006-MusicScript,
