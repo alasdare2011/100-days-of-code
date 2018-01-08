@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
+using UnityEngine;
+
+public class ScoreKeeper : MonoBehaviour {
+
+    public static int score = 0;
+    private Text myText;
+
+    private void Start()
+    {
+        myText = GetComponent<Text>();
+        Reset();
+    } 
+    // Increases score for each enemy killed
+    public void Score(int points)
+    {
+        score += points;
+        myText.text = score.ToString();
+    }
+
+    // Resets the score to 0
+    public static void Reset()
+    {
+        score = 0;
+    }
+}
