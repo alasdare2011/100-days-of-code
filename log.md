@@ -83,4 +83,4 @@ So, while it may seem like I made minimal progress today, I actually felt like t
 **Link to work:** [New Leaderboard Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day007-NewLeaderboardScript),
 [Updated ScoreDisplay Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day007-UpdatedScoreDisplayScript),
 [Updated ScoreKeeper Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day007-UpdatedScoreKeeperScript),
-[Star Swarm Game!](https://gamebucket.io/game/100ff0af-302d-4442-aca3-91824e7c043d)
+[Star Swarm Game!](https://gamebucket.io/game/ef3e1222-2d86-4c6a-89e3-4db5b18d0bab)
