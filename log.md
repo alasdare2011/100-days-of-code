@@ -63,5 +63,24 @@ I definitely was battling some frustrating during that experience, but finding t
 
 **Thoughts:** Similar to the progress I made yesterday, I am very pleased that I was able to do some of the (minor) things I did with minimal assistance. I hit a bit of a snag while working on some systems and got a bit frustrated. I didn't give up, however, and managed to find a solution, which felt awesome. 
 
-**Link to work:** [Leaderboard Script]https://github.com/fauletto/100-days-of-code/blob/master/Day006-LeaderboardScript,
-[Music Script]https://github.com/fauletto/100-days-of-code/blob/master/Day006-MusicScript,
+**Link to work:** [Leaderboard Script](https://github.com/fauletto/100-days-of-code/blob/master/Day006-LeaderboardScript),
+[Music Script](https://github.com/fauletto/100-days-of-code/blob/master/Day006-MusicScript)
+
+### Day 7: January 7th, 2018.
+
+**Today's Progress**: I encountered a few issues today, but overall made some good progress and learned a few new things along the way.
+
+I started my morning with a delivery from Amazon; it was the copy of [C# in Depth by Jon Skeet](https://www.manning.com/books/c-sharp-in-depth-third-edition) I ordered! So, I started my morning by reading some of that with a cup of coffee. I feel like I'm going to get a lot out of this book!
+
+When it came time to code, I decided I was going to put the finishing touches on my Unity space shooter, Star Swarm. Last night, I was having some issues getting the leaderboard to display the player's name after putting it in the input field in the game. After a few hours (yes, it took hours), I managed to figure out the solution. I completely scrapped my old leaderboard system, and wrote a brand new one today.
+
+Then, more frustration hit. I was repeatedly getting the following error when I attempted to load scores: **"NullReferenceException: Object reference not set to an instance of an object."** Uh-oh. I had no idea how to fix this, I Googled and searched the Unity docs, but still came up with nothing. Then, it dawned on me: the text box for the score was not referencing the score from the ScoreKeeper script I wrote. Once I declared a public score GameObject from my ScoreKeeper script, everything worked!
+
+So, while it may seem like I made minimal progress today, I actually felt like those bits of progress were huge. Tomorrow I will continue to read my new book (so excited) and work on my personal RPG.
+
+**Thoughts:** I definitely made some small steps today, but they felt like giant leaps. I solved *two* major problems in my scripts and completely re-wrote my leaderboard script to ensure everything was working as intended. Today was a frustrating day for sure; I spent a few hours to fix these errors, but it was worth it in the end, as my short little game is complete!
+
+**Link to work:** [New Leaderboard Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day007-NewLeaderboardScript),
+[Updated ScoreDisplay Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day007-UpdatedScoreDisplayScript),
+[Updated ScoreKeeper Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day007-UpdatedScoreKeeperScript),
+[Star Swarm Game!](https://gamebucket.io/game/100ff0af-302d-4442-aca3-91824e7c043d)
