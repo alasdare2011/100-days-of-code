@@ -1,0 +1,33 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ScoreDisplay : MonoBehaviour {
+    public static InputField playerName;
+    public static string playerText;
+    public static string userName;
+    public static Text userText;
+    public static int player;
+    private Text myText;
+    public ScoreKeeper score;
+
+	// Use this for initialization
+	void Start () {
+        Text myText = GetComponent<Text>();
+        myText.text = ScoreKeeper.score.ToString();
+        userName = PlayerPrefs.GetString("playerName", "Player");
+    }
+
+    public void InitialsEntered()
+    {
+        GetComponent<ScoreManager>().CheckForHighScore(ScoreKeeper.score, playerName.text);
+    }
+
+    public void SetUserName (string text)
+    {
+        userName = text;
+        PlayerPrefs.SetString("playerName", userName);
+    }
+}
