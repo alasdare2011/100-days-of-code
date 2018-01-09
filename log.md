@@ -84,3 +84,19 @@ So, while it may seem like I made minimal progress today, I actually felt like t
 [Updated ScoreDisplay Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day007-UpdatedScoreDisplayScript),
 [Updated ScoreKeeper Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day007-UpdatedScoreKeeperScript),
 [Star Swarm Game!](https://gamebucket.io/game/ef3e1222-2d86-4c6a-89e3-4db5b18d0bab)
+
+### Day 8: January 8th, 2018.
+
+**Today's Progress**: Back to work today, so I didn't have 8+ hours to code today. Boo! I still was able to spend a little over two hours reading, learning, doing tutorials, and working on my own RPG in Unity. 
+
+During my lunch break at work today, I continued reading [C# in Depth by Jon Skeet.](https://www.manning.com/books/c-sharp-in-depth-third-edition) What a phenomenal and in-depth (ugh, sorry) look at the C# language! Jon Skeet is a fantastic teacher and clearly loves the C# language.
+
+When I finally settled in at home tonight (during a pretty awful ice storm outside), I started the C# training path on [Pluralsight.](https://app.pluralsight.com/paths/skill/csharp) Some of it has been a retread of what I learned in Bob Tabor's course on the Microsoft Virtual Academy, but I figure there's no such thing as too much information. 
+
+After a few videos, I hopped back into Unity and Visual Studio to work on my as of now untitled sci-fi RPG. I created a script for items, inventory, and item slots within the inventory. Nothing too groundbreaking or exciting, but the scripts work within my Unity editor and some of the basic foundation work is coming together for the game. I am really trying to start building a lot of the underlying systems of the game before I start worrying about art and such. We'll see how it goes!
+
+**Thoughts:** Overall happy with today's work. I didn't run into any issues, but I believe that is solely because I am working with some fairly simple scripts for now. Regardless, I'm always happy to make progress!
+
+**Link to work:** [Inventory Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day008-InventoryScript),
+[Item Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day008-ItemScript),
+[ItemSlot Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day008-ItemSlotScript)
