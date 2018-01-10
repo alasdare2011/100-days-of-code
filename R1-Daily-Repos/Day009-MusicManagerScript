@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MusicManager : MonoBehaviour {
+    public AudioClip[] sceneMusicChangeArray;
+    private AudioSource audioSource;
+
+	// Will not destroy the Music Manager game object between loading scenes
+	void Awake () {
+        DontDestroyOnLoad(gameObject);
+	}
+
+    // Unity will find the Audio Source component attached to the Game Object
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    // Unity will programatically load audio clips depending on the currently loaded scene
+    private void OnLevelWasLoaded(int level)
+    {
+        AudioClip currentSceneMusic = sceneMusicChangeArray[level];
+
+        if (currentSceneMusic)
+        {
+            audioSource.clip = currentSceneMusic;
+            audioSource.loop = true;
+            audioSource.Play();
+        }
+    }
+}
