@@ -100,3 +100,20 @@ After a few videos, I hopped back into Unity and Visual Studio to work on my as 
 **Link to work:** [Inventory Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day008-InventoryScript),
 [Item Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day008-ItemScript),
 [ItemSlot Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day008-ItemSlotScript)
+
+### Day 9: January 9th, 2018.
+
+**Today's Progress**: Another busy day today! I had a staff meeting after work, which cut down on my coding time this evening, but I still managed to get another two hours or so in! 
+
+I continued reading [C# in Depth by Jon Skeet](https://www.manning.com/books/c-sharp-in-depth-third-edition) when I had breaks at work. I really am loving how detailed each section of this book is so far. 
+
+Oh! I forgot to mention: to further immerse myself in all things code, I've been listening to coding podcasts during my commute each day. I started digging into the [CodeNewbie podcast](https://www.codenewbie.org/) and absolutely love the different perspectives I've heard so far. It's just another opportunity to learn more!
+
+At home, I continued working through the C# learning path on [Pluralsight.](https://app.pluralsight.com/paths/skill/csharp) I decided to start with the fundamentals, just to cement that stuff into my brain. I really appreciate the attention to detail in each of these lessons. 
+
+I jumped back into Unity and Visual Studio to continue working on some stuff for my RPG. It isn't much, but I took some old code and Google research to create a more succinct and tidy Music Manager for my game. I like this version over the one I used in my previous game, as it requires a lot less work from me, and it helps keep things from getting over complicated. Simplicity is a beautiful thing!
+
+**Thoughts:** I didn't write a ton of scripts, but the one I did write will help to simplify music management in my game. I'm looking forward to adding some more systems to my game tomorrow. 
+
+**Link to work:** [MusicManager Script](https://github.com/fauletto/100-days-of-code/commit/d847399edee6a89fc1c31be8ab3591b2b485c3cf)
+
