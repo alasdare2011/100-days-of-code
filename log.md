@@ -117,3 +117,14 @@ I jumped back into Unity and Visual Studio to continue working on some stuff for
 
 **Link to work:** [MusicManager Script](https://github.com/fauletto/100-days-of-code/commit/d847399edee6a89fc1c31be8ab3591b2b485c3cf)
 
+### Day 10: January 10th, 2018.
+
+**Today's Progress**: Hey, I hit the double-digit mark for days! I managed to squeeze in another few hours to work on code when I got home from work today! It feels like I'm starting to develop a pretty consistent schedule for coding/learning.  
+
+To give a quick updated on the "learning" portion of my day, I bounced back and forth between reading [C# in Depth by Jon Skeet](https://www.manning.com/books/c-sharp-in-depth-third-edition) and [Rob Miles' C# Yellow Book](http://www.csharpcourse.com/) when I became a bit overwhelmed by Skeet's explanations (which are fantastic, but still a bit over my head in some places). I managed to finish another module of the the C# learning path on [Pluralsight.](https://app.pluralsight.com/paths/skill/csharp), and listened to more of the [CodeNewbie podcast](https://www.codenewbie.org/) during both my commute and gym session today!
+
+I began making a generic Player Prefs script for Unity that I can use across multiple games. For those unaware, Player Prefs in Unity literally just saves different preferences, such as volume, difficulty, etc. We'll see how it works when I finish it and actually use it in the future. I also improved a fade in script from a tutorial I did, cleaning up the code and simplifying it a bit!
+
+**Thoughts:** More small progress today, but still progress. Looking forward to seeing how this Player Prefs script works when I have more time to work tomorrow and Friday. 
+
+**Link to work:** [PlayerPrefsManager Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day010-PlayerPrefsManagerScript), [FadeIn Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day010-FadeInScript)
