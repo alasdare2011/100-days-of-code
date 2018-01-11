@@ -1,0 +1,18 @@
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class FadeIn : MonoBehaviour {
+
+	public float fadeInDelay;
+  
+	void Start () {
+		GetComponent <Image>().CrossFadeAlpha (0, fadeInDelay, true);
+	}
+
+	void Update(){
+		if(Time.timeSinceLevelLoad > fadeInDelay){
+			gameObject.SetActive (false);
+		}
+	}
+}
