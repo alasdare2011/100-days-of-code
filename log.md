@@ -121,10 +121,25 @@ I jumped back into Unity and Visual Studio to continue working on some stuff for
 
 **Today's Progress**: Hey, I hit the double-digit mark for days! I managed to squeeze in another few hours to work on code when I got home from work today! It feels like I'm starting to develop a pretty consistent schedule for coding/learning.  
 
-To give a quick updated on the "learning" portion of my day, I bounced back and forth between reading [C# in Depth by Jon Skeet](https://www.manning.com/books/c-sharp-in-depth-third-edition) and [Rob Miles' C# Yellow Book](http://www.csharpcourse.com/) when I became a bit overwhelmed by Skeet's explanations (which are fantastic, but still a bit over my head in some places). I managed to finish another module of the the C# learning path on [Pluralsight.](https://app.pluralsight.com/paths/skill/csharp), and listened to more of the [CodeNewbie podcast](https://www.codenewbie.org/) during both my commute and gym session today!
+To give a quick update on the "learning" portion of my day, I bounced back and forth between reading [C# in Depth by Jon Skeet](https://www.manning.com/books/c-sharp-in-depth-third-edition) and [Rob Miles' C# Yellow Book](http://www.csharpcourse.com/) when I became a bit overwhelmed by Skeet's explanations (which are fantastic, but still a bit over my head in some places). I managed to finish another module of the the C# learning path on [Pluralsight.](https://app.pluralsight.com/paths/skill/csharp), and listened to more of the [CodeNewbie podcast](https://www.codenewbie.org/) during both my commute and gym session today!
 
 I began making a generic Player Prefs script for Unity that I can use across multiple games. For those unaware, Player Prefs in Unity literally just saves different preferences, such as volume, difficulty, etc. We'll see how it works when I finish it and actually use it in the future. I also improved a fade in script from a tutorial I did, cleaning up the code and simplifying it a bit!
 
 **Thoughts:** More small progress today, but still progress. Looking forward to seeing how this Player Prefs script works when I have more time to work tomorrow and Friday. 
 
 **Link to work:** [PlayerPrefsManager Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day010-PlayerPrefsManagerScript), [FadeIn Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day010-FadeInScript)
+
+### Day 11: January 11th, 2018.
+
+**Today's Progress**: Super busy day today, but I was able to get in an hour to update a script I wrote yesterday and create an options menu with a script in my game!
+
+I am still taking some time to read both [C# in Depth by Jon Skeet](https://www.manning.com/books/c-sharp-in-depth-third-edition) and [Rob Miles' C# Yellow Book](http://www.csharpcourse.com/) each day. I also spent some more time listening to the [CodeNewbie podcast](https://www.codenewbie.org/).
+
+Since I didn't have much time to code today, I made sure to dive right in and update the PlayerPrefsManager script I worked on yesterday. The script is now wired to accept and save volume, difficulty, and any unlocked levels! 
+
+I also finished up an options menu, creating working volume and difficulty sliders, and a "defaults" button that is wired to return those values to their default settings. Not a lot of time to work today, but pretty productive nonetheless! 
+
+**Thoughts:** I am pretty excited to get a few of these backbone systems in place in my game. I will hopefully have more time tomorrow to work on some things, because I really wanted to dig deeper and start developing a script that will control player movement. 
+
+**Link to work:** [UpdatedPlayerPrefsManager Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day011-UpdatedPlayerPrefsManagerScript), [OptionsController Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day011-OptionsControllerScript)
+
