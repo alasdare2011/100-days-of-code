@@ -1,0 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using UnityEngine;
+
+public class SceneController : MonoBehaviour
+{
+    private int _activeSceneBuildIndex = 0;
+
+    void Start()
+    {
+        Initialise();
+    }
+
+    private void Initialise()
+    {
+        Scene activeScene = SceneManager.GetActiveScene();
+
+        _activeSceneBuildIndex = activeScene.buildIndex;
+    }
+
+    public void LoadSceneAsync(string sceneName)
+    {
+        SceneManager.LoadSceneAsync(sceneName);
+    }
+
+    public void LoadNextSceneAsync()
+    {
+        SceneManager.LoadSceneAsync(++_activeSceneBuildIndex);
+    }
+
+    public void QuitRequest()
+    {
+        // Debug.Log("Quit requested");
+        Application.Quit();
+    }
+}
