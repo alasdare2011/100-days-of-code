@@ -143,3 +143,15 @@ I also finished up an options menu, creating working volume and difficulty slide
 
 **Link to work:** [UpdatedPlayerPrefsManager Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day011-UpdatedPlayerPrefsManagerScript), [OptionsController Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day011-OptionsControllerScript)
 
+### Day 12: January 12th, 2018.
+
+**Today's Progress**: Another busy day today; I wasn't home much, but I still set aside my hour to code. 
+
+A quick reminder that I'm still reading [C# in Depth by Jon Skeet](https://www.manning.com/books/c-sharp-in-depth-third-edition) and [Rob Miles' C# Yellow Book](http://www.csharpcourse.com/) each day. I also listened to an episode of [CodeNewbie podcast](https://www.codenewbie.org/) with Quincy Larson, which was pretty awesome to hear.
+
+Today I simply made a third class for my untitled RPG project, then made a scene controller script to control the level flow in Unity. Not much to show for the day, but I got my coding in!
+
+**Thoughts:** I didn't do anything "new" per se, but I did something and got some more practice in. Hopefully tomorrow I will have time to really tinker and try out some new things. 
+
+**Link to work:** [Medic Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day012-MedicScript), [SceneController Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day012-SceneControllerScript)
+
