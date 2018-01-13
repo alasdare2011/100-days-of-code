@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BaseMedicClass : BaseCharacterClass
+{
+    public BaseMedicClass()
+    {
+        CharacterClassName = "Medic";
+        CharacterClassDescription = "A selfless support unit who ensures the well-being of the entire unit. The Medic can create antidotes and healing boosts to keep party members alive.";
+        Vitality = 12;
+        Strength = 10;
+        Dexterity = 8;
+        Intellect = 14;
+        Agility = 8;
+    }
+}
