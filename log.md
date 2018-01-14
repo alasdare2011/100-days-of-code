@@ -155,3 +155,12 @@ Today I simply made a third class for my untitled RPG project, then made a scene
 
 **Link to work:** [Medic Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day012-MedicScript), [SceneController Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day012-SceneControllerScript)
 
+### Day 13: January 13th, 2018.
+
+**Today's Progress**: So, today I did something new and a little different: I started my first MOOC (massive open online course) through [edX](https://www.edx.org/). I specifically decided to begin [Harvard's CS50x course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) to get a better understanding of computer science in general. I think this understanding will translate to better programming/coding overall. After just one lecture, I am absolutely in love with the way David J. Malan teaches; he's engaging, intelligent, and funny. Definitely recommend this for anyone who wants to get a better understanding of computer science or even just problem solving in general.  
+
+I spent an hour watching the lecture, then went on to work this week's assignment for the course, which was to create either an animation, piece of art, or game in [Scratch](https://scratch.mit.edu/). I spent a few hours working, but I managed to come up with something pretty awful; however, it works! [Mario's Mushroom Madness](https://scratch.mit.edu/projects/197770621/)
+
+**Thoughts:** Yikes, coding in Scratch was a little more difficult than I thought. I felt a little more restricted than I would in C#, so I couldn't quite do what I wanted. Tomorrow will be a busy day, but I hope to spend some time working in C# again. 
+
+**Link to work:** [Mario's Mushroom Madness](https://scratch.mit.edu/projects/197770621/) 
