@@ -164,3 +164,15 @@ I spent an hour watching the lecture, then went on to work this week's assignmen
 **Thoughts:** Yikes, coding in Scratch was a little more difficult than I thought. I felt a little more restricted than I would in C#, so I couldn't quite do what I wanted. Tomorrow will be a busy day, but I hope to spend some time working in C# again. 
 
 **Link to work:** [Mario's Mushroom Madness](https://scratch.mit.edu/projects/197770621/) 
+
+### Day 14: January 14th, 2018.
+
+**Today's Progress**: It was nice to get back into coding in C# today, rather than using Scratch...that was a nightmare yesterday! I went back to work on my untitled RPG today, but I've decided to make some changes to my plan (which I think is okay).
+
+The biggest change to my plan is the overall flow of gameplay. I orignally intended to make a very standard turn-based RPG, with a standard overworld map. I have actually decided to change that to more of a tactical turn-based strategy/RPG, similar to the gameplay of Fire Emblem or Advance Wars. This will allow me to contain the gameplay a bit more, which I think will make it a little easier for me to complete.
+
+With that said, I decided to start working on the enemies in the game. I read up a lot on using Scriptable Objects in Unity, and have decided that will be the most efficient way to handle enemies in the game. I created a very basic template for the information and elements that will be needed to create each enemy. I will eventually edit this, but I think it's a good start for now. 
+
+**Thoughts:** Felt good to get back into using C# today. I have a lot of work to do if I want to make this game work, but fortunately I have all the time in the world to get it done. I am starting to feel a little overwhelmed with some things, so I think I need to get back to the basics and do more tutorials/lessons online. 
+
+**Link to work:** [EnemyData Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day014-EnemyDataScript) 
