@@ -176,3 +176,13 @@ With that said, I decided to start working on the enemies in the game. I read up
 **Thoughts:** Felt good to get back into using C# today. I have a lot of work to do if I want to make this game work, but fortunately I have all the time in the world to get it done. I am starting to feel a little overwhelmed with some things, so I think I need to get back to the basics and do more tutorials/lessons online. 
 
 **Link to work:** [EnemyData Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day014-EnemyDataScript) 
+
+### Day 14: January 14th, 2018.
+
+**Today's Progress**: I decided to continue to expand my knowledge of C# today, and worked through some coursework for one of the MOOCs I am taking. I ran through a few tutorial and videos, then did my first homework assignment. I had to simply create a console application that would accept and print student data. It isn't anything special, but it was nice to step back and work through some of the C# basics I need to solidify. 
+
+After that, I worked through a few of the exercises on [freeCodeCamp](https://www.freecodecamp.org) to further my programming/coding knowledge. I really like this site and how it presents information, so I think I will spend a lot more time here. Maybe it isn't a great idea to combine this with all the C# I'm learning, but as I mentioned recently, I have been feeling like I hit a brick wall and really need to solidify my coding foundation. 
+
+**Thoughts:** It was nice to work on something a little simpler to build my confidence today. My next assignment--which I plan to work through tomorrow--looks a little trickier, so we'll see how that goes!
+
+**Link to work:** [Module1HW Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day015-Module1HW) 
