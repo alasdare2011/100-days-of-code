@@ -177,7 +177,7 @@ With that said, I decided to start working on the enemies in the game. I read up
 
 **Link to work:** [EnemyData Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day014-EnemyDataScript) 
 
-### Day 14: January 14th, 2018.
+### Day 15: January 15th, 2018.
 
 **Today's Progress**: I decided to continue to expand my knowledge of C# today, and worked through some coursework for one of the MOOCs I am taking. I ran through a few tutorial and videos, then did my first homework assignment. I had to simply create a console application that would accept and print student data. It isn't anything special, but it was nice to step back and work through some of the C# basics I need to solidify. 
 
