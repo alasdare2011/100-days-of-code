@@ -1,0 +1,36 @@
+using System;
+
+namespace Mod1_Lab2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string studentFirstName;
+            string studentLastName;
+            string studentBirthDate;
+            string studentAddressLine1;
+            string studentAddressLine2;
+
+            Console.WriteLine("Enter your first name:");
+            studentFirstName = (Console.ReadLine());
+            Console.WriteLine("Enter your last name:");
+            studentLastName = (Console.ReadLine());
+            Console.WriteLine("Enter your date of birth (YYYY, MM, DD):");
+            studentBirthDate = (Console.ReadLine());
+            Console.WriteLine("Enter your house number and street name (Ex: 123 Fourth Street):");
+            studentAddressLine1 = (Console.ReadLine());
+            Console.WriteLine("Enter your city, state, and zip code:");
+            studentAddressLine2 = (Console.ReadLine());
+
+            Console.WriteLine("Press enter to confirm your information.");
+            Console.ReadLine();
+            Console.WriteLine("You entered:");
+            Console.WriteLine(studentFirstName + " " + studentLastName);
+            Console.WriteLine(studentBirthDate);
+            Console.WriteLine(studentAddressLine1);
+            Console.WriteLine(studentAddressLine2);
+
+        }
+    }
+}
