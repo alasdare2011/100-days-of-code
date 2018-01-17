@@ -186,3 +186,30 @@ After that, I worked through a few of the exercises on [freeCodeCamp](https://ww
 **Thoughts:** It was nice to work on something a little simpler to build my confidence today. My next assignment--which I plan to work through tomorrow--looks a little trickier, so we'll see how that goes!
 
 **Link to work:** [Module1HW Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day015-Module1HW) 
+
+### Day 16: January 16th, 2018.
+
+**Today's Progress**: I continued working today on my C# MOOC through [edX](https://www.edx.org/). I had what seemed like a really simple problem set to work on, which instead ended up being far more challenging than I thought. 
+
+My goal was simple: print a simple 8x8 "chess board" grid to console that looked like this:
+
+XOXOXOXO
+OXOXOXOX
+XOXOXOXO
+OXOXOXOX
+XOXOXOXO
+OXOXOXOX
+XOXOXOXO
+OXOXOXOX
+
+Simple, right? I thought to myself, "Oh man, this is easy. Eight 'Console.WriteLine()' commands with the proper string, and I'm done!"
+
+Wrong! The assignment stated that I needed to use a nested loop and a decision statement to alternate between rows. I spent a lot of time and thought figuring this one out. A lot of trial and error with "if-else" loops. Nothing. Finally, it dawned on me: I needed to use a "for" statement, and nest an "if-else" statment inside of it. I seriously was thinking about this at work, in the car, at the gym, etc. I sat in front of my screen until the lightbulb went on and everything made sense.
+
+So, yeah. Today was a simple day, but I was seriously proud of myself when I figured out the simple loop that made the code work. I am glad that I took the time to go back and start looking at the fundamentals and doing more work on my own, without the use of tutorials. I think I'll be a better programmer for it. 
+
+After I finished my assignment, I worked through some more of the HTML/CSS module on [freeCodeCamp](https://www.freecodecamp.org) and then worked on [Harvard's CS50x course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x).
+
+**Thoughts:** So, initially I felt pretty defeated today staring at that blank Visual Studio screen; however, once I figured out the correct loop to achieve my goal, I was on cloud 9. I know this seems super basic to some, but I am so proud and happy that I was able to figure it out on my own!
+
+**Link to work:** [IncorrectHW Script (AWFUL!)](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day016-IncorrectHW), [CorrectHW Script (using nested loops](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day016-Module2HW)
