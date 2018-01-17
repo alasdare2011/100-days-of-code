@@ -1,0 +1,22 @@
+using System;
+
+namespace HW_Test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string evenRow = "XOXOXOXO";
+            string oddRow = "OXOXOXOX";
+
+            Console.WriteLine(evenRow);
+            Console.WriteLine(oddRow);
+            Console.WriteLine(evenRow);
+            Console.WriteLine(oddRow);
+            Console.WriteLine(evenRow);
+            Console.WriteLine(oddRow);
+            Console.WriteLine(evenRow);
+            Console.WriteLine(oddRow);
+        }
+    }
+}
