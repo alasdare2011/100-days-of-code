@@ -194,12 +194,19 @@ After that, I worked through a few of the exercises on [freeCodeCamp](https://ww
 My goal was simple: print a simple 8x8 "chess board" grid to console that looked like this:
 
 XOXOXOXO
+
 OXOXOXOX
+
 XOXOXOXO
+
 OXOXOXOX
+
 XOXOXOXO
+
 OXOXOXOX
+
 XOXOXOXO
+
 OXOXOXOX
 
 Simple, right? I thought to myself, "Oh man, this is easy. Eight 'Console.WriteLine()' commands with the proper string, and I'm done!"
@@ -212,4 +219,4 @@ After I finished my assignment, I worked through some more of the HTML/CSS modul
 
 **Thoughts:** So, initially I felt pretty defeated today staring at that blank Visual Studio screen; however, once I figured out the correct loop to achieve my goal, I was on cloud 9. I know this seems super basic to some, but I am so proud and happy that I was able to figure it out on my own!
 
-**Link to work:** [IncorrectHW Script (AWFUL!)](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day016-IncorrectHW), [CorrectHW Script (using nested loops](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day016-Module2HW)
+**Link to work:** [IncorrectHW Script (AWFUL!)](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day016-IncorrectHW), [CorrectHW Script (using nested loops)](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day016-Module2HW)
