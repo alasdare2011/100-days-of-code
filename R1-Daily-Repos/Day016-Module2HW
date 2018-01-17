@@ -1,0 +1,25 @@
+using System;
+
+namespace Mod2_SelfAssessmentLab
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string evenRow = "XOXOXOXO";
+            string oddRow = "OXOXOXOX";
+
+            for (int i = 0; i < 8; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(evenRow);
+                }
+                else
+                {
+                    Console.WriteLine(oddRow);
+                }
+            }
+        }
+    }
+}
