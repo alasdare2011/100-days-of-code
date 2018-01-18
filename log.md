@@ -220,3 +220,19 @@ After I finished my assignment, I worked through some more of the HTML/CSS modul
 **Thoughts:** So, initially I felt pretty defeated today staring at that blank Visual Studio screen; however, once I figured out the correct loop to achieve my goal, I was on cloud 9. I know this seems super basic to some, but I am so proud and happy that I was able to figure it out on my own!
 
 **Link to work:** [IncorrectHW Script (AWFUL!)](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day016-IncorrectHW), [CorrectHW Script (using nested loops)](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day016-Module2HW)
+
+### Day 17: January 17th, 2018.
+
+**Today's Progress**: Another day, another assignment completed for [Harvard's CS50x course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). Before I get into the assignment, I just want to reiterate how awesome this course is, and how amazing it is that it is *completely free*. 
+
+So, today's assignment was another "simple" one: prompt the user for a number between 0 and 23; that number will determine the height of a pyramid the console will print out. Just like the chessboard example from yesterday, I thought this would be a fairly simple exercise. Man, was I wrong!
+
+First thing is first: the beginning of this course uses C, which is *fairly* similar to C#, but different enough that I'm having some trouble with my syntax. I am starting to get the hang of it, but it's definitely a steep learning curve.
+
+Anyway, I stumbled for a bit, but slowly figured it out (and at one point printed out an upside down pyramid...whoops). I am slowly starting to understand *do, while,* and *for* loops a little better now, but I still have my moments of confusion. 
+
+After I finished my assignment, I continued to work on the HTML/CSS module on [freeCodeCamp](https://www.freecodecamp.org).
+
+**Thoughts:** Another "simple" exercise giving me some problems today, but I managed to figure it out with trial and error and some pointers from Google. I have one more exercise left in the first problem set, which I'll work on tomorrow (considering the exercise I worked on today took over an hour on its own). 
+
+**Link to work:** [MarioPyramid Script](https://github.com/fauletto/100-days-of-code/blob/42dbfe37e9e98a99931221c25144f422a08c5ea9/R1-Daily-Repos/Day017-MarioPyramid)
