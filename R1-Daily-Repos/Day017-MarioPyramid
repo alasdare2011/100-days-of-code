@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    // declaring all variables
+    int height;
+    int rows;
+    int space;
+    int hash;
+
+    // asks the user to select the height of the pyramid, which must be an integer between 0 and 23
+    do
+    {
+        printf("Choose a number between 0 and 23 to determine the height of Mario's pyramid: ");
+        height = get_int();
+    }
+    while (height < 0 || height > 23);
+
+    // loop that creates the number of rows entered by the user in the previous do statement
+    // the loop takes the user's height and prints spaces and hashes accordingly
+    for (rows = 1; rows <= height; rows++)
+    {
+        for (space = (height - rows); space > 0; space--)
+        {
+            printf(" ");
+        }
+
+        for (hash = 1; hash <= (rows + 1); hash++)
+        {
+            printf("#");
+        }
+
+        printf("\n");
+    }
+    return 0;
+}
