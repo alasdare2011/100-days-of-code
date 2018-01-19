@@ -236,3 +236,20 @@ After I finished my assignment, I continued to work on the HTML/CSS module on [f
 **Thoughts:** Another "simple" exercise giving me some problems today, but I managed to figure it out with trial and error and some pointers from Google. I have one more exercise left in the first problem set, which I'll work on tomorrow (considering the exercise I worked on today took over an hour on its own). 
 
 **Link to work:** [MarioPyramid Script](https://github.com/fauletto/100-days-of-code/blob/42dbfe37e9e98a99931221c25144f422a08c5ea9/R1-Daily-Repos/Day017-MarioPyramid)
+
+
+### Day 18: January 18th, 2018.
+
+**Today's Progress**: Well, a minor syntax difference between C# (what I'm used to) and C (what I'm using in [Harvard's CS50x course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)) almost made me completely lose my mind tonight.
+
+I was working on an assignment designed to take a dollar amount and determine how to make change with the fewest coins possible. I created a loop for quarters, dimes, nickels, and pennies, and was 100% confident the code was going to run the first time.
+
+Wrong. For reasons I initially could not understand, I was receiving errors. The could would not subtract the coin value from the user cash amount. I wrote code that I was confident would work. For example, I wrote "amount - 25" for the quarter. Error. What the hell!
+
+Well, after a bit of Googling, it turns out that while simply using "-" to subtract in C# will work, it's required to use "-=" in C. Once I made that change, the program worked exactly as expected, and I had no errors when I submitted! I'm pretty excited about all of this. I'll continue with the course a bit more tomorrow. I think it is really helping me understand the problem solving involved in programming.
+
+To wrap up the evening, I once again worked a bit on the HTML/CSS module on [freeCodeCamp](https://www.freecodecamp.org).
+
+**Thoughts:** One character almost made me lose my mind today. I remained calm and Googled the solution, but it certainly was frustrating when I could not figure out why my code wouldn't compile. At least I learned a valuable C syntax lesson today.
+
+**Link to work:** [Cash Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day018-CashScript)
