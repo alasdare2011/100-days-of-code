@@ -1,0 +1,60 @@
+#include <stdio.h>
+#include <cs50.h>
+#include <math.h>
+
+int main(void)
+{
+
+    // declaring variables for the user's change input, the counter to track coins, and amount after rounding
+    float change;
+    int coincounter = 0;
+    int amount;
+
+    // prompt the user to enter the amount of change owed
+    do
+    {
+        printf("How much change do I owe you? \n");
+        change = get_float();
+    }
+    while (change < 0);
+
+    // converts the user input (float) into cents (int)
+    change *= 100.0;
+    amount = (int) round(change);
+
+    // checks if a quarter can be used, subtracts 25 cents, and
+    // increments coincounter by the number of quarters used
+    while (amount >= 25)
+    {
+        coincounter++;
+        amount -= 25;
+    }
+
+    // checks if a dime can be used, subtracts 10 cents, and
+    // increments coincounter by the number of dimes used
+    while (amount >= 10)
+    {
+        coincounter++;
+        amount -= 10;
+    }
+    // checks if a nickel can be used, subtracts 5 cents, and
+    // increments coincounter by the number of nickels used
+    while (amount >= 5)
+    {
+        coincounter++;
+        amount -= 5;
+    }
+
+    // checks if a penny can be used, subtracts 1 cent, and
+    // increments coincounter by the number of pennies used
+    while (amount >= 1)
+    {
+        coincounter++;
+        amount -= 1;
+    }
+
+    // tells the user how many coins were used to make change
+    printf("I was able to make change of %.0f cents with just %i coins!\n", change, coincounter);
+
+    return 0;
+}
