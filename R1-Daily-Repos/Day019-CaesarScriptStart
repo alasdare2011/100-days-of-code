@@ -1,0 +1,11 @@
+#include <cs50.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main (int argc 2, string argv[1])
+{
+    string num = "50";
+    int i = atoi(num);
+    printf(string argv[1]);
+}
