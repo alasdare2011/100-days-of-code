@@ -237,7 +237,6 @@ After I finished my assignment, I continued to work on the HTML/CSS module on [f
 
 **Link to work:** [MarioPyramid Script](https://github.com/fauletto/100-days-of-code/blob/42dbfe37e9e98a99931221c25144f422a08c5ea9/R1-Daily-Repos/Day017-MarioPyramid)
 
-
 ### Day 18: January 18th, 2018.
 
 **Today's Progress**: Well, a minor syntax difference between C# (what I'm used to) and C (what I'm using in [Harvard's CS50x course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)) almost made me completely lose my mind tonight.
@@ -253,3 +252,17 @@ To wrap up the evening, I once again worked a bit on the HTML/CSS module on [fre
 **Thoughts:** One character almost made me lose my mind today. I remained calm and Googled the solution, but it certainly was frustrating when I could not figure out why my code wouldn't compile. At least I learned a valuable C syntax lesson today.
 
 **Link to work:** [Cash Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day018-CashScript)
+
+### Day 19: January 19th, 2018.
+
+**Today's Progress**: I was pretty productive today! During my 45 minute lunch break at work, I managed to finish up the HTML/CSS module on [freeCodeCamp](https://www.freecodecamp.org)! I'm looking forward to continuing there, as the format and presentation is excellent. It's a really "hands-on" course. 
+
+When I got home from work, I watched the third lecture in [Harvard's CS50x course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) (which is week 1, part 2). It was nearly two hours long, so that took up a good chunk of my night.
+
+I started to work on my second problem set after watching the video. The first assignment is to create a cipher that will prompt the user to enter the key that will then be used to change their text input later. For example, if the user enters "1" for the key, and then inputs the text, "Hello," the program will output "Ifmmp," increasing each original letter by one. 
+
+I spent a lot of time *thinking* about what to program, so I'm writing out a to-do list and some pseudo code to help me figure out what I need to do to make the program work. I don't have much written yet, but I wrote the beginning of my code in a repo. I plan to finish it tomorrow and work through some more [freeCodeCamp](https://www.freecodecamp.org) stuff.
+
+**Thoughts:** Much more positive day today than the past few days. I was able to finish a module and make progress in a new assignment. 
+
+**Link to work:** [IncompleteCaesar Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day019-CaesarScriptStart)
