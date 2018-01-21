@@ -282,3 +282,18 @@ Now, I need a major break. That was mentally exhausting!
 **Thoughts:** Lots of trial and error to get this working, but I'm proud of the solution. I struggled for a while, but I'm glad I took the time to figure things out.  
 
 **Link to work:** [CaesarFinal Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day020-CaesarFinalScript)
+
+### Day 21: January 21st, 2018.
+
+**Today's Progress**: I figured I'd take the momentum I had after finishing the Caesar problem from [Harvard's CS50x course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) yesterday and continue with problem set 2. However, I hit a bit of a brick wall.
+
+I started working on the Vigenere problem today. The idea of the problem is similar to that of Caesar: the user defines a key--though this time it is an alphabetical key, rather than numerical key--and the program iterates the value of the alphabetical letters over a string entered by the user. I figured I could use most of the Caesar script in this program and make some alterations. 
+
+I have to admit that I'm pretty stumped. I have been staring at the screen and at my pseudocode for a majority of the morning/afternoon today. I added a few things to the script, but I can't seem to figure out how to take the user's key and use it to encipher the string. I am going to take some time to think about this one, just as I did with Caesar. I am determined to figure this out. 
+
+I decide to take a break from the CS50x stuff and do a little more [freeCodeCamp](https://www.freecodecamp.org) work to feel like I am making some progress in something. 
+
+**Thoughts:** Pretty stumped today, but I am not defeated. I will figure out the Vigenere problem, I just need to break each individual part into smaller problems I can tackle. Hopefull I will have it figured out in the next few days. 
+
+**Link to work:** [VigenereIncomplete Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day021-VigenereIncomplete)
+
