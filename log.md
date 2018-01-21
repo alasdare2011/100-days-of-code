@@ -266,3 +266,19 @@ I spent a lot of time *thinking* about what to program, so I'm writing out a to-
 **Thoughts:** Much more positive day today than the past few days. I was able to finish a module and make progress in a new assignment. 
 
 **Link to work:** [IncompleteCaesar Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day019-CaesarScriptStart)
+
+### Day 20: January 20th, 2018.
+
+**Today's Progress**: Well, I finished the Caesar problem in problem set 2 of [Harvard's CS50x course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). However, it was **not** easy.
+
+I picked up where I left off with my notes and thoughts about what I needed to do. I had the general idea correct, but I spent a lot of time trying many different things (and I mean *many*) to get this thing to work. After much trial and error, I *finally* figured out how to make the program cipher text correctly.
+
+The hardest part was figuring out the formula to convert a character from ASCII to an alphabetic index, then back to ASCII. A little googling of ASCII values helped me figure out the pattern for each character (both for upper and lower case letters). Once I saw the pattern, the formula became a little clearer. Still, this problem took me a solid 2-3 hours of work, and far more time just pondering solutions.
+
+This course is definitely a challenge, but I feel like I'm learning more from this than from anything I've done before. I find myself thinking about the problem sets while I'm away from the computer, which is really helping me with problem solving. 
+
+Now, I need a major break. That was mentally exhausting!
+
+**Thoughts:** Lots of trial and error to get this working, but I'm proud of the solution. I struggled for a while, but I'm glad I took the time to figure things out.  
+
+**Link to work:** [CaesarFinal Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day020-CaesarFinalScript)
