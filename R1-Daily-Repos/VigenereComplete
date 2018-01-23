@@ -1,0 +1,65 @@
+#include <cs50.h>
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// allows the user to input a number at the command line to determine the key
+int main (int argc, string argv[])
+{
+    // returns an error if incorrect number of arguments are used
+    if (argc != 2)
+    {
+        printf("Invalid entry. Please enter one string of characters and try again.\n");
+
+        return 1;
+    }
+    else
+    {
+        for (int i = 0, n = strlen(argv[1]); i < n; i++)
+        {
+            // returns an error if non-alphabetical characters are used
+            if (!isalpha (argv[1][i]))
+            {
+                printf("Invalid entry. Only enter alphabetic characters and try again.\n");
+
+                return 1;
+            }
+        }
+    }
+
+    // takes user input for the key that will be used to encipher text
+    string key = argv[1];
+    // gets the length of the key so we know how many ciphers we will need
+    int keylength = strlen(key);
+
+    // asks user for plaintext to be enciphered
+    printf("plaintext:\n");
+    string plaintext = get_string();
+    printf("ciphertext:\n");
+
+    // loop to determine key per letter, maintain upper or lowercase, and then alter letter based on key
+    for (int i = 0, j = 0, n = strlen(plaintext); i < n; i++)
+    {
+        int keycode = tolower(key[j % keylength]) - 'a';
+
+        if (isupper(plaintext[i]))
+        {
+            printf("%c", 'A' + (plaintext[i] - 'A' + keycode) % 26);
+
+            j++;
+        }
+        else if (islower(plaintext[i]))
+        {
+            printf("%c", 'a' + (plaintext[i] - 'a' + keycode) % 26);
+            j++;
+        }
+        else
+        {
+            printf("%c", plaintext[i]);
+        }
+    }
+
+    printf("\n");
+    return 0;
+}
