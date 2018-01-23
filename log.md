@@ -297,3 +297,16 @@ I decide to take a break from the CS50x stuff and do a little more [freeCodeCamp
 
 **Link to work:** [VigenereIncomplete Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day021-VigenereIncomplete)
 
+### Day 22: January 22nd, 2018.
+
+**Today's Progress**: After a few days of work, I finally finished the Vigenere problem in [Harvard's CS50x course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). I'm done with problem set 2!
+
+This one was by far the hardest thing I've done in the course so far. The funny thing is, I only needed to make very small changes to my Caesar script, but it took a *very* long time for me to realize what those specific changes were. I was having trouble figuring out how to link the enciphering to letters, rather than just adding a number to the ASCII value of a letter.
+
+I finally realized that I needed to create an additional "for" loop to track the key being used. It took a while, but I finally got it. I am going to take a few days off from the CS50 course to give my brain a little breather. I'll come back to it a little later in the week.
+
+In the meantime, I'll be continuing to work on [freeCodeCamp](https://www.freecodecamp.org) and [Codecademy](https://www.codecademy.com/).
+
+**Thoughts:** My brain is mush. I feel some small satisfaction after completing Vigenere, but I still feel like I needed to rely on too many crutches to figure it out; I had to Google a lot to get things working. Not every day is going to be good, I suppose. 
+
+**Link to work:** [VigenereComplete Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day022-VigenereComplete)
