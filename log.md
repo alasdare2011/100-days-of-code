@@ -310,3 +310,15 @@ In the meantime, I'll be continuing to work on [freeCodeCamp](https://www.freeco
 **Thoughts:** My brain is mush. I feel some small satisfaction after completing Vigenere, but I still feel like I needed to rely on too many crutches to figure it out; I had to Google a lot to get things working. Not every day is going to be good, I suppose. 
 
 **Link to work:** [VigenereComplete Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day022-VigenereComplete)
+
+### Day 23: January 23rd, 2018.
+
+**Today's Progress**: I decided to take a little breather from [Harvard's CS50x course](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x). I will jump back into that either tomorrow or Thursday and watch the next lecture. 
+
+I decided today that I wanted to make some progress in both the [freeCodeCamp](https://www.freecodecamp.org) and [Codecademy](https://www.codecademy.com/) curricula. I absolutely love the way both sites teach their respective material! I thought it would be nice to focus on some Python in Codecademy, which is helping me a great deal with just understanding coding logic in general. In fact, the more I work on different languages and programs, the more I realize all the similarities between the languages.
+
+I finished up both the Responsive Design with Bootstrap and jQuery modules on freeCodeCamp today. That was actually a lot of fun; now I'm ready to do my first front end project! I think that will be something nice and enjoyable to work on while I work my way through CS50x.  
+
+**Thoughts:** Today was both productive and relaxing. I don't feel like my brain was taxed quite as much as it was over the past few days, which was pretty necessary. I'm looking forward to the tribute page project on freeCodeCamp, which I plan to start over the next few days! 
+
+**Link to work:** [jQueryPlayground Script](https://github.com/fauletto/100-days-of-code/blob/master/R1-Daily-Repos/Day023-JQueryPlayground)
